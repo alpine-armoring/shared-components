@@ -14,9 +14,9 @@
   "scripts": {
     "build": "rollup -c",
     "publish": "npm publish --access public",
-    "version:patch": "npm version patch",
-    "version:minor": "npm version minor",
-    "version:major": "npm version major"
+    "publish:patch": "npm run version:patch && npm run build && npm run publish",
+    "publish:minor": "npm run version:minor && npm run build && npm run publish",
+    "publish:major": "npm run version:major && npm run build && npm run publish"
   },
   "peerDependencies": {
     "react": "^18.0.0",
