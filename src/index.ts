@@ -1,1 +1,1 @@
-export { default as VideoScale } from './components/video-scale/VideoScale';
+export { default as BannerFull } from './components/banner-full/BannerFull';
