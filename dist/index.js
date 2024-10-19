@@ -76,7 +76,7 @@ const PauseIcon = () => {
             ' ')));
 };
 
-const HpBanner = ({ props }) => {
+const BannerFull = ({ props }) => {
     var _a, _b, _c, _d;
     const [isPlaying, setIsPlaying] = React.useState(true);
     const videoRef = React.useRef(null);
@@ -162,5 +162,5 @@ const HpBanner = ({ props }) => {
         React__default["default"].createElement("div", { className: `${styles.hp_banner_shape} shape-before` })));
 };
 
-exports.BannerFull = HpBanner;
+exports.BannerFull = BannerFull;
 //# sourceMappingURL=index.js.map
