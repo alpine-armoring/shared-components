@@ -5,6 +5,7 @@ export interface HPBannerProps {
     title: string;
     description: string;
     video: any;
+    white?: boolean;
   };
   error?: Error;
   // languageCookie?: string;

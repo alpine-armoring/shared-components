@@ -129,6 +129,10 @@
           right: -150px;
         }
       }
+
+      &_white{
+        --background: var(--color-background);
+      }
     }
   
     &_pause {

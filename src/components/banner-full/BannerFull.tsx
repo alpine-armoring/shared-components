@@ -146,7 +146,11 @@ const BannerFull = ({ props }: HPBannerProps) => {
         </div>
       </div>
 
-      <div className={`${styles.hp_banner_shape} shape-before`}></div>
+      <div className={`
+        ${styles.hp_banner_shape} 
+        shape-before 
+        ${props.white ? styles.hp_banner_shape_white : ''}  
+      `}></div>
     </div>
   );
 };
